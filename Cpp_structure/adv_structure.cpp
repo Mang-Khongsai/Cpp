@@ -17,6 +17,7 @@ int main(){
     //int size = sizeof(person)/sizeof(person[0]);
     //cout <<"size: "<<size<<endl;
     
+    // input section
     // for(int i=0;i<size;i++){
     for(int i=0;i<n;i++){
         cout <<(i+1)<<". Name: ";
@@ -25,7 +26,7 @@ int main(){
         cin >>person[i].age;
         cout<<endl;
     }
-
+    // output section 
     cout <<"\n-------------LIST OF NAMES-------------"<<endl;
     //for(int i=0;i<size;i++){
     for(int i=0;i<n;i++){
