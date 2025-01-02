@@ -13,12 +13,10 @@ int main(){
     int x = 20;
     cout <<"x: "<<x<<"\t&x: "<<&x<<endl;
 
-    int *ptr;
-    ptr = &x;
+    int *ptr = &x;
     cout <<"ptr: "<<ptr<<"\t*ptr: "<<*ptr<<endl;
 
-    float **ptr2;
-    ptr2 = ptr;
+    int **ptr2  = &ptr;
     cout <<"ptr2: "<<ptr2<<"\t**ptr2: "<<*ptr2<<"\t**ptr2: "<<**ptr2<<endl;
 
     
